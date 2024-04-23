@@ -20,6 +20,13 @@ export default function Homepage() {
         <Link to="/app" className="cta">
           Start Tracking Now
         </Link>
+        {/* /app Route has several nested Routes: So when user 
+        clicks on Start Tracking Now <Link> app Route we get the <AppLayout/> that contains 
+        the <Sidebar/> component where the children routes are rendered. AppNav inside of Sidebar
+        gives the cities and countires and by default the List of cities.   
+        <Route path="cities" element={<p>List of cities</p>} />
+        <Route path="countries" element={<p>List of countries</p>} />
+        <Route path="form" element={<p>Form</p>} />  */}
       </section>
     </main>
   );

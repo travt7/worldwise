@@ -4,6 +4,7 @@ import styles from "./AppLayout.module.css"; //used code snippet to make this ea
 //for every file where I import the css module
 
 function AppLayout() {
+  //this is the app path
   return (
     <div className={styles.app}>
       {/* applies flex container so Sidebar only takes up left side and Map takes up
